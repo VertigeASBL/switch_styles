@@ -47,7 +47,7 @@ function switch_styles_block_view($delta) {
 
 /**
  * Implements hook_menu().
- */
+ 
 function switch_styles_menu() {
   $items['admin/config/system/switch_styles'] = array(
     'title' => 'Switch_Styles',
@@ -60,10 +60,12 @@ function switch_styles_menu() {
 
   return $items;
 }
+*/
+
 
 /**
  * Add a settings form
- */
+ 
 function switch_styles_admin() {
   $form = array();
 
@@ -77,7 +79,7 @@ function switch_styles_admin() {
 
   return system_settings_form($form);
 }
-
+*/
 /**
  * Implements hook_preprocess().
  */
