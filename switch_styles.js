@@ -4,7 +4,8 @@
 
     function set_style_cookie (style) {
         $.cookie('Drupal.visitor.switch_styles', style, {
-            expires: 36500
+            expires: 36500,
+            path: '/'
         });
     }
 

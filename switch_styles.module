@@ -110,5 +110,5 @@ function get_current_style () {
 
 function set_current_style ($style) {
 
-  user_cookie_save(array('switch_styles' => $style));
+  setcookie('Drupal.visitor.switch_styles', $style, time() + (365*24*60*60), '/');
 }
